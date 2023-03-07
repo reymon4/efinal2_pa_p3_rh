@@ -33,7 +33,7 @@ public class InventarioController {
 	
 	}
 	@GetMapping("/bodegaInsertar")
-	public String paginaInsertarBodega(Bodega bodega) {
+	public String paginaInsertarBodega(Inventario inventario, Bodega bodega, Producto producto) {
 		return "vistaBodega";
 	
 	}
